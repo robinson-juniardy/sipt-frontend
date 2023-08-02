@@ -54,7 +54,7 @@ const LoginPage = () => {
   });
 
   return (
-    <div>
+    <div className="bg-main">
       <Container component={"main"} maxWidth="xs">
         <Box
           sx={{
@@ -68,9 +68,16 @@ const LoginPage = () => {
             alignItems: "center",
           }}
         >
-          <Typography component="h1" variant="h5">
+          {/* <Typography component="h1" variant="h5">
             Sign In
-          </Typography>
+          </Typography> */}
+          <img
+            style={{
+              maxWidth: 250,
+            }}
+            src="/static/images/logo_kominfo.png"
+            alt="logo"
+          />
           <Box
             component="form"
             onSubmit={formik.handleSubmit}

@@ -1,4 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
+.bg-main {
+  background-image: url("/public/static/images/bg1.jpg");
+  height: 95vh;
+  width: "100%";
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
 }
