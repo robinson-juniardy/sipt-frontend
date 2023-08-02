@@ -1,5 +1,5 @@
 const constants = {
-  BACKEND_URL: "http://localhost:3333",
+  BACKEND_URL: "https://backend.sipita.my.id",
 };
 
 export default constants;
